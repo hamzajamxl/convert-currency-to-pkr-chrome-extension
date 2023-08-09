@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convert Currency To PKR</title>
+    <script src="exchange.js"></script>
 </head>
 <body>
-    
+    <h1> Currency Converter</h1>
+    <input type="number" id="amount" placeholder="input amount"/>
+    <select id="currency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="CAD">CAD</option>
+        <option value="GBP">GBP</option>
+    </select>
+    <button id="convert">Convert</button>
+    <div id="result"></div>
 </body>
 </html>
