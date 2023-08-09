@@ -2,8 +2,8 @@
     "name": "Convert Currency To PKR",
     "version": "0.1",
     "manifest_version": 3,
-    "description": "Convert any currency to PKR",
-    "browser_action": {
+    "description": "Convert Currency To PKR",
+    "action": {
         "default_icon": "icon.png",
         "default_popup": "popup.html"
     }
